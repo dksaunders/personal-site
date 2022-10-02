@@ -1,0 +1,9 @@
+<meta charset="utf-8"/>
+<title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+<link rel="canonical" href="{{ .Site.BaseURL }}"/>
+<meta name="description" content="{{ .Site.Params.description }}"/>
+<meta name="author" content="{{ .Site.Params.Author }}"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}

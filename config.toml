@@ -2,7 +2,9 @@ baseURL = "http://www.dksaunders.com/"
 languageCode = "en-us"
 title = "Daniel Saunders's Homepage"
 copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
+enableRobotsTXT = true
 
 [params]
+    title = "Daniel Saunders's Homepage"
     author = "Daniel Saunders"
     description = "This is the personal homepage for Daniel Saunders."

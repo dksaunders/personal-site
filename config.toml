@@ -1,3 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.dksaunders.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Daniel Saunders's Homepage"
+copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
+
+[params]
+    author = "Daniel Saunders"
+    description = "This is the personal homepage for Daniel Saunders."
